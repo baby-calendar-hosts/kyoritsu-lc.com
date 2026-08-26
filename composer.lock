@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "efad16e44ef6e37279c7964288c83e33",
+    "content-hash": "5438f7a21ce54434213c7e87bf3cae06",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -898,6 +898,15 @@
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/translation/plugin/flexible-table-block/{%version}/ja.zip",
                 "reference": "master"
+            },
+            "type": "wordpress-language"
+        },
+        {
+            "name": "koodimonni-plugin-language/mw-wp-form-ja",
+            "version": "5.1.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/mw-wp-form/{%version}/ja.zip"
             },
             "type": "wordpress-language"
         },
@@ -2483,15 +2492,15 @@
         },
         {
             "name": "wpackagist-plugin/mw-wp-form",
-            "version": "5.0.4",
+            "version": "5.1.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mw-wp-form/",
-                "reference": "tags/5.0.4"
+                "reference": "tags/5.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mw-wp-form.5.0.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/mw-wp-form.5.1.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
